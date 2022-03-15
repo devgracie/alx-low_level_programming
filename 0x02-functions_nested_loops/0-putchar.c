@@ -20,9 +20,8 @@ int i = 0;
 		_putchar(s[i]);
 		i++;
 	}
-    _putchar('\n');\
+	_putchar('\n');\
 
-    return (0);
+	return (0);
 
     }
-    
