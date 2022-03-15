@@ -9,7 +9,7 @@
  * Return: always 0 (success)
  */
 
- int main(void)
+int main(void)
 {
 	char s[9] = "_putchar";
 
@@ -23,5 +23,4 @@ int i = 0;
 	_putchar('\n');
 
 	return (0);
-
 }
