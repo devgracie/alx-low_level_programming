@@ -1,8 +1,24 @@
-#include <stdio>
-int main () {
+#include <stdio.h>
+
+/**
+ * main - causes an infinite loop
+ * Return: 0
+ */
+
+int main(void)
+{
 	int i;
 
-for (i = 48; i < 58; i++)
+	printf("Infinite loop incoming :(\n");
 
-    printf("%c", i);
+	i = 0;
+
+	/*while (i < 10)*/
+	/*{*/
+	/*putchar(i);*/
+	/*}*/
+
+	printf("Infinite loop avoided! \\o/\n");
+
+	return (0);
 }
